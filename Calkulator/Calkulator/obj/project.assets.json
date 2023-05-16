@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Университет\\for girl\\Calkulator\\Calkulator\\Calkulator.csproj",
+      "projectUniqueName": "F:\\Университет\\forgirl\\Calkulatorrrr\\Calkulator\\Calkulator\\Calkulator.csproj",
       "projectName": "Calkulator",
-      "projectPath": "F:\\Университет\\for girl\\Calkulator\\Calkulator\\Calkulator.csproj",
+      "projectPath": "F:\\Университет\\forgirl\\Calkulatorrrr\\Calkulator\\Calkulator\\Calkulator.csproj",
       "packagesPath": "C:\\Users\\GuraL\\.nuget\\packages\\",
-      "outputPath": "F:\\Университет\\for girl\\Calkulator\\Calkulator\\obj\\",
+      "outputPath": "F:\\Университет\\forgirl\\Calkulatorrrr\\Calkulator\\Calkulator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programm\\VS\\Other\\NuGetPackages"

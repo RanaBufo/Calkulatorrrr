@@ -1740,6 +1740,41 @@ namespace Calkulator
             }
         }
 
+        private void ALLHIS(object sender, RoutedEventArgs e)
+        {
+            t2.Text = "";
+        }
+
+        private void HisDel(object sender, RoutedEventArgs e)
+        {
+            int ir;
+            if (t2.Text != "" & t2.Text.Contains("\n"))
+            {
+                ir = t2.Text.IndexOf("\n");
+                t2.Text = t2.Text.Substring(ir + 1);
+            }
+            else if (t2.Text != "")
+            {
+                t2.Text = "";
+            }
+        }
+
+        private void DEKS(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void VVV(object sender, RoutedEventArgs e)
+        {
+            t1.Text = "0";
+            s = "0";
+            point = 0;
+            ch = 1; m1 = 1;
+            op = 0;
+            x1 = 1;
+            t1.FontSize = 130;
+            x2 = 1;
+        }
+
         private void kk(object sender, RoutedEventArgs e)
         {
             if (his.IsChecked == true)

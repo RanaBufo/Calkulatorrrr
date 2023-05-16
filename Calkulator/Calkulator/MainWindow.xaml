@@ -45,8 +45,24 @@
 
         <Button x:Name="bsin"  Content="sin()" Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center"   Grid.Column="1" Grid.Row="1" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="Sin"/>
         <Button x:Name="bcos"   Content="cos()" Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center" Grid.Column="2" Grid.Row="1" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="COs"/>
-        <Button x:Name="bCE"   Content="CE" Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center" Grid.Column="7" Grid.Row="1" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="CE"/>
+        <Grid x:Name="GG" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="bCHis"   Content="Delete His" Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center"  Grid.Row="0" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="HisDel"/>
+            <Button x:Name="bHis"   Content="Delete All" Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center"  Grid.Row="1" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="ALLHIS"/>
 
+        </Grid>
+        <Grid x:Name="G1" Grid.Row="1" Grid.Column="7">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="bCE"   Content="CE" Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center"  Grid.Row="0" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="CE"/>
+            <Button x:Name="bCDFG"   Content="Del" Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center"  Grid.Row="1" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="VVV"/>
+
+        </Grid>
 
         <Button x:Name="b32"  Content="tan()"  Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center"  Grid.Column="1" Grid.Row="2" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="TG"/>
         <Button x:Name="b33"  Content="cat()"  Foreground="#CBD5F6" FontSize="35" HorizontalContentAlignment="Center" Grid.Column="2" Grid.Row="2" Background="#7F93D7" Margin="5,5,5,5" BorderThickness="0,0,0,0" Click="CG"/>
